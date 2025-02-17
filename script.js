@@ -1,9 +1,9 @@
 // Show the popup when the page loads
 window.onload = function() {
-    document.getElementById("birthday-popup").style.display = "flex";
-};
+    document.getElementById('birthday-popup').style.display = 'block';
+}
 
-// Function to close the pop-up
+// Close the popup when the close button is clicked
 function closePopup() {
-    document.getElementById("birthday-popup").style.display = "none";
+    document.getElementById('birthday-popup').style.display = 'none';
 }
